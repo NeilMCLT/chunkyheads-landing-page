@@ -36,10 +36,10 @@ h1 span { display:block; margin-top:9px; color:var(--red); }
 .product-stage::before { content:""; position:absolute; z-index:-2; width:84%; aspect-ratio:1; border-radius:50%; background:radial-gradient(circle,rgba(199,34,38,.12),rgba(199,34,38,.04) 42%,transparent 72%); filter:blur(8px); }
 .product-stage::after { content:""; position:absolute; z-index:-1; bottom:6%; width:63%; height:8%; border-radius:50%; background:rgba(20,34,37,.18); filter:blur(22px); }
 .product-pouch { position:relative; z-index:2; display:block; width:82%; max-width:440px; height:auto; filter:drop-shadow(0 28px 24px rgba(20,34,37,.20)); animation:product-float 5.6s ease-in-out infinite; }
-.product-badge { position:absolute; z-index:4; right:0; bottom:11%; display:flex; flex-direction:column; width:min(245px,48%); padding:16px 18px 17px; border:1px solid rgba(9,55,66,.10); border-radius:12px; background:rgba(255,255,255,.91); box-shadow:0 17px 42px rgba(24,35,37,.15); backdrop-filter:blur(14px); }
-.product-badge span { color:var(--red); font-size:9px; font-weight:850; text-transform:uppercase; letter-spacing:.18em; }
-.product-badge strong { margin-top:7px; color:var(--deep); font-size:14px; line-height:1.25; }
-.product-badge small { margin-top:6px; color:#758386; font-size:10px; line-height:1.4; }
+.product-badge { position:absolute; z-index:4; right:0; bottom:11%; display:flex; flex-direction:column; width:min(226px,46%); padding:17px 18px 18px; border:1px solid rgba(9,55,66,.10); border-radius:12px; background:rgba(255,255,255,.91); box-shadow:0 17px 42px rgba(24,35,37,.15); backdrop-filter:blur(14px); }
+.product-badge span { color:var(--red); font-size:10px; font-weight:850; text-transform:uppercase; letter-spacing:.17em; }
+.product-badge strong { margin-top:7px; color:var(--deep); font-size:16px; line-height:1.2; }
+.product-badge small { margin-top:7px; color:#758386; font-size:11px; line-height:1.35; }
 .art-caption { margin:12px 0 0; color:#869295; font-size:10px; font-weight:750; text-transform:uppercase; letter-spacing:.18em; }
 @keyframes product-float { 0%,100% { transform:translate3d(0,0,0) rotate(1deg); } 50% { transform:translate3d(0,-12px,0) rotate(-.5deg); } }
 .connect { display:grid; grid-template-columns:.8fr 1.2fr; gap:70px; padding-block:100px; border-top:1px solid var(--line); }
